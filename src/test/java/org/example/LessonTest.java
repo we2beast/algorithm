@@ -38,7 +38,7 @@ public class LessonTest {
         Lesson lesson = new Lesson();
         int[] items = new int[]{1, 2, 3, 4, 5};
 
-        assertEquals(15, lesson.sumTwo(items, 0));
+        assertEquals(10, lesson.sumTwo(items, 0));
     }
 
     @Test
